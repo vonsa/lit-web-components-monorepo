@@ -1,6 +1,6 @@
 {
   "name": "@vonsa/second-package",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "Second package",
   "author": "Coen <administratie@vonsa.nl>",
   "homepage": "https://vonsa.nl",
@@ -16,5 +16,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "a2e9bcb9f62a701dc3dc126b65990dac19c1d2b8"
+  "gitHead": "891b7424f5643964cc43abf4cb4b0c5a3dd14c99"
 }
