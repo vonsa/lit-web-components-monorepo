@@ -1,6 +1,6 @@
 {
   "name": "@vonsa/svelte-project",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Svelte project",
   "private": true,
   "keywords": [
@@ -37,9 +37,8 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^2.0.0",
-    "@vonsa/component-library-test": "*",
-    "@vonsa/second-package": "*"
+    "@vonsa/component-library-test": "^0.0.1",
+    "@vonsa/second-package": "^0.0.1",
+    "sirv-cli": "^2.0.0"
   }
 }
-
