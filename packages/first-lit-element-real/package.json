@@ -1,0 +1,24 @@
+{
+  "name": "@vonsa/first-lit-element",
+  "version": "0.0.1",
+  "description": "A simple web component",
+  "main": "dist/my-element.js",
+  "module": "dist/my-element.js",
+  "type": "module",
+  "author": "Vonsa",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "npm run lint:lit-analyzer && npm run lint:eslint",
+    "lint:eslint": "eslint 'src/**/*.ts'",
+    "lint:lit-analyzer": "lit-analyzer",
+    "format": "prettier \"**/*.{cjs,html,js,json,md,ts}\" --ignore-path ./.eslintignore --write"
+  },
+  "keywords": [
+    "web-components",
+    "lit-element",
+    "typescript",
+    "lit"
+  ],
+  "license": "ISC"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@vonsa/web-components",
+  "version": "0.0.1",
+  "description": "Web component library",
+  "main": "dist/index.js",
+  "module": "index.js",
+  "type": "module",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "keywords": [
+    "web-components",
+    "lit-element",
+    "typescript",
+    "lit"
+  ],
+  "author": "Vonsa",
+  "license": "ISC",
+  "dependencies": {
+    "@vonsa/first-lit-element": "*"
+  }
+}
