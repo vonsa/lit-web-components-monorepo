@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Web component library",
   "main": "dist/index.js",
-  "module": "index.js",
+  "module": "dist/index.js",
   "type": "module",
   "sideEffects": false,
   "scripts": {

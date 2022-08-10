@@ -4,7 +4,7 @@ import {customElement, property} from 'lit/decorators.js';
 @customElement('simple-greeting')
 export class SimpleGreeting extends LitElement {
   // Define scoped styles right with your component, in plain CSS
-  static styles = css`
+  static override styles = css`
     :host {
       color: blue;
     }
@@ -15,7 +15,7 @@ export class SimpleGreeting extends LitElement {
   name?: string = 'World';
 
   // Render the UI as a function of component state
-  render() {
-    return html`<p>Hello, ${this.name}!</p>`;
+  override render() {
+    return html`<p>Hello again, ${this.name}!</p>`;
   }
 }

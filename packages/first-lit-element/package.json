@@ -5,6 +5,7 @@
   "main": "dist/my-element.js",
   "module": "dist/my-element.js",
   "type": "module",
+  "sideEffects": false,
   "author": "Vonsa",
   "scripts": {
     "build": "tsc",

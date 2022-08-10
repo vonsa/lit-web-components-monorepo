@@ -10,6 +10,11 @@
     "typescript",
     "lit"
   ],
+  "description": "Web component library",
+  "main": "packages/collection/dist/index.js",
+  "module": "packages/collection/dist/index.js",
+  "type": "module",
+  "sideEffects": false,
   "author": "Vonsa",
   "license": "ISC",
   "dependencies": {
