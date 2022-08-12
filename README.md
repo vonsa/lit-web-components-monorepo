@@ -1,8 +1,10 @@
 ## Info
 
-This is vonsa's web component UI kit
+This is a Lit web components monorepo template.
 
 ## Installation
+
+Replace all package.json package names with your own.
 
 ```
 yarn install
@@ -20,12 +22,14 @@ yarn link
 
 #### In your existing project:
 
-Add `@vonsa/web-components-monorepo` as a dependency, with version number `*`.
+Add the mono repo name as a dependency, with version number `*`. You can find the mono repo name in the root directory's package.json.
 
 #### run:
 ```
-yarn link @vonsa/web-components-monorepo
+yarn link mono-repo-name
 ```
+
+Where you replace mono-repo-name with the name of your monorepo.
 
 #### Now, in the web components monorepo, run:
 ```
