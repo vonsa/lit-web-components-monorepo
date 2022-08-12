@@ -13,18 +13,24 @@ lerna bootstrap
 
 You can test elements inside of an existing project, with live reloading.
 
-In this repo, run:
-```yarn link```
+#### In this repo, run:
+```
+yarn link
+```
 
-In your existing project:
+#### In your existing project:
 
 Add `@vonsa/web-components-monorepo` as a dependency, with version number `*`.
 
-run:
-```yarn link @vonsa/web-components-monorepo```
+#### run:
+```
+yarn link @vonsa/web-components-monorepo
+```
 
-Now, in the web components monorepo, run:
-```lerna run build:watch```
+#### Now, in the web components monorepo, run:
+```
+lerna run build:watch
+```
 
 Now, whenever you make a change in the web components monorepo, your existing project will be reloaded with the latest changes.
 
