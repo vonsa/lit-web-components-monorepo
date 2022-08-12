@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "@vonsa/web-components-monorepo",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -16,7 +16,7 @@
   "type": "module",
   "sideEffects": false,
   "author": "Vonsa",
-  "license": "ISC",
+  "license": "GNU GPLv3",
   "dependencies": {
     "lit": "^2.2.4"
   },
